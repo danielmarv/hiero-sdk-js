@@ -1,0 +1,5 @@
+# Stage 1 runs its own pnpm install; a working clone's modules would only be
+# copied in and then overwritten.
+node_modules
+**/node_modules
+.git/
